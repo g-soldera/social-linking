@@ -18,6 +18,7 @@ Social Linking is a versatile tool that allows you to create a customized page w
 
 ## Preview
 
+![1684552027744](image/README/1684552027744.png)
 
 ## Getting Started
 
