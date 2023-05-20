@@ -1,4 +1,4 @@
-// "mode" variable to lines 40-47
+// "mode" variable to lines 42-49
 // let mode = "dark"
 
 function toggleMode() {
