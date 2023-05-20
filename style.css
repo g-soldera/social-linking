@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
 * {
   margin: 0;
@@ -27,7 +27,7 @@
 }
 
 body {
-  font-family: "Inter";
+  font-family: "Abel", sans-serif;
   color: var(--text-color);
   background-color: #1f1e22;
   /* background-image: url(assets/bgmobile.jpg);
@@ -200,6 +200,7 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--social-links-hover);
+  scale: 1.1;
 }
 
 footer {

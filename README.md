@@ -47,7 +47,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 
 ## License
 
-This project is licensed under the [MIT License](https://chat.openai.com/c/LICENSE), making it open and free for anyone to use and modify.
+This project is licensed under the [MIT License](https://tlo.mit.edu/learn-about-intellectual-property/software-and-open-source-licensing/open-source-licensing), making it open and free for anyone to use and modify.
 
 ## Acknowledgements
 
