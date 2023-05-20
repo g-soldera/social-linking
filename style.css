@@ -36,9 +36,11 @@ body {
   background-size: cover; 
 
   background: color image repeat position/size */
-  background: #561a54 var(--bg-url) no-repeat top center/cover;
 
-  transition: all .5s ease;
+  background: #561a54 var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
+
+  transition: all 0.5s ease;
 }
 
 #container {
@@ -195,4 +197,15 @@ footer {
 
 a {
   color: var(--text-color);
+}
+
+/* media queries */
+@media (min-width: 768px) {
+  :root {
+    --bg-url: url(assets/bgdesktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(assets/bgdesktoplight.jpg);
+  }
 }
