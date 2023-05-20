@@ -73,10 +73,6 @@ body {
   transition: all 0.5s ease;
 }
 
-#name:hover {
-  scale: 1.05;
-}
-
 #switch {
   position: relative;
   width: 64px;
