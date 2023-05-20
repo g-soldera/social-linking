@@ -225,6 +225,7 @@ a {
   }
 }
 
+/* animations */
 @keyframes slide-in {
   from {
     left: 0;
