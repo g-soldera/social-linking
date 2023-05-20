@@ -44,7 +44,7 @@ body {
 }
 
 #container {
-  width: 96%;
+  width: 90%;
   max-width: 588px;
   /* height: 712px;
   border: 1px solid var(--text-color); */
@@ -59,11 +59,22 @@ body {
 
 #profile img {
   height: 112px;
+
+  transition: all 0.5s ease;
+}
+
+#profile img:hover {
+  scale: 1.1;
 }
 
 #name {
   margin-top: 15px;
   font-size: 16px;
+  transition: all 0.5s ease;
+}
+
+#name:hover {
+  scale: 1.05;
 }
 
 #switch {
@@ -92,11 +103,14 @@ body {
   transform: translateY(-50%);
 
   transition: all 0.2s ease-in-out;
+
+  animation: slide-out 0.5s;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  /* right: 0; */
+  /* left: 50%; */
+  animation: slide-in 0.5s forwards;
 }
 
 #switch button:hover {
@@ -207,5 +221,23 @@ a {
 
   .light {
     --bg-url: url(assets/bgdesktoplight.jpg);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
