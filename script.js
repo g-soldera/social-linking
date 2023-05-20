@@ -90,7 +90,7 @@ document.addEventListener("click", function (event) {
 //   // Create fullImage Element
 //   const fullImage = document.createElement("img")
 //   fullImage.src = "assets/avatar.png"
-//   fullImage.alt = "Imagem em tamanho real"
+//   fullImage.alt = "Fullsize Avatar"
 
 //   // Create close button
 //   const closeButton = document.createElement("button")
