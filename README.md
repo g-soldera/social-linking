@@ -54,6 +54,10 @@ This project is licensed under the [MIT License](https://tlo.mit.edu/learn-about
 - Ionic Icons - https://ionic.io/ionicons
 - DevLinks - https://rocketseat.com.br
 
+## New Features Log
+
+* Added popup when clicking on avatar.
+
 ## Contact
 
 If you have any questions or need assistance, please feel free to reach out to me at [gustavo.soldera@gmail.com].

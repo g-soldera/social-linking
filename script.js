@@ -1,12 +1,12 @@
 // "mode" variable to lines 42-49
 // let mode = "dark"
 
+// Select img from div with "profile" id
+const avatar = document.querySelector("#profile img")
+
 function toggleMode() {
   // Select <html> element
   const html = document.documentElement
-
-  // Select img from div with "profile" id
-  const avatar = document.querySelector("#profile img")
 
   // Toggle light mode by class
   html.classList.toggle("light")
@@ -48,3 +48,60 @@ function toggleMode() {
     document.body.classList.add("light")
   } */
 }
+
+
+// Open Avatar full-size pop-up (abreviated)
+const popup = document.getElementById("popup")
+const closeButton = document.getElementById("closeButton")
+
+avatar.addEventListener("click", function () {
+  popup.style.display = "block"
+})
+
+closeButton.addEventListener("click", function () {
+  popup.style.display = "none"
+})
+
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Escape") {
+    popup.style.display = "none"
+  }
+})
+
+
+// avatar.addEventListener("click", function () {
+//   // Create Pop-up
+//   const popup = document.createElement("div")
+//   popup.className = "popup"
+
+//   // Create fullImage Element
+//   const fullImage = document.createElement("img")
+//   fullImage.src = "assets/avatar.png"
+//   fullImage.alt = "Imagem em tamanho real"
+
+//   // Create close button
+//   const closeButton = document.createElement("button")
+//   closeButton.textContent = "Fechar" // Close button text, can be ""
+//   closeButton.className = "closeButton"
+
+//   // closeButton onclick event
+//   closeButton.addEventListener("click", function () {
+//     // Close pop-up
+//     document.body.removeChild(popup)
+//   })
+
+//   // Add image and close button
+//   popup.appendChild(fullImage)
+//   popup.appendChild(closeButton)
+
+//   // Add pop-up to <body>
+//   document.body.appendChild(popup)
+
+//   // Add escape key to close popup
+//   document.addEventListener("keydown", function (event) {
+//     if (event.key === "Escape") {
+//       // Remove popup on escape press
+//       document.body.removeChild(popup)
+//     }
+//   })
+// })
