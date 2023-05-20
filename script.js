@@ -13,6 +13,7 @@ function toggleMode() {
 
   // Set avatar attributes according to classList content
   if (html.classList.contains("light")) {
+    // Change avatar image when light mode
     avatar.setAttribute("src", "assets/avatar.png")
 
     // Toggle grayscale filter (web-safe) on when lightmode
@@ -21,6 +22,7 @@ function toggleMode() {
     //   "-webkit-filter: grayscale(100%); -webkit-filter: grayscale(1) filter: grayscale(100%);"
     // )
   } else {
+    // Change avatar image when dark mode
     avatar.setAttribute("src", "assets/avatar.png")
 
     // Toggle grayscale filter (web-safe) off
