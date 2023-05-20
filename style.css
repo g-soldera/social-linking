@@ -242,6 +242,9 @@ a {
 /* Avatar Pop-up */
 
 .popup {
+  visibility: hidden;
+  opacity: 0;
+
   z-index: 999;
   position: fixed;
 
@@ -259,6 +262,13 @@ a {
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+
+  transition: all 0.2s ease-in-out;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
 }
 
 .popup img {

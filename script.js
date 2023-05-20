@@ -49,25 +49,29 @@ function toggleMode() {
   } */
 }
 
-
 // Open Avatar full-size pop-up (abreviated)
 const popup = document.getElementById("popup")
 const closeButton = document.getElementById("closeButton")
 
+// Click event listener on avatar
 avatar.addEventListener("click", function () {
-  popup.style.display = "block"
+  // Show pop-up
+  popup.classList.add("show")
 })
 
+// Click event listener on close button
 closeButton.addEventListener("click", function () {
-  popup.style.display = "none"
+  // Hide pop-up
+  popup.classList.remove("show")
 })
 
+// Key press event listener on escape key
 document.addEventListener("keydown", function (event) {
   if (event.key === "Escape") {
-    popup.style.display = "none"
+    // Hide pop-up
+    popup.classList.remove("show")
   }
 })
-
 
 // avatar.addEventListener("click", function () {
 //   // Create Pop-up
