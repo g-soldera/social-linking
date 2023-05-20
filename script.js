@@ -40,7 +40,7 @@ function toggleMode() {
   } */
 
   // Add and remove light mode with cache variable "mode" - Add class to <body> element - UNCOMMENT VARIABLE TO USE
-  /*if (mode === "light") {
+  /* if (mode === "light") {
     mode = "dark"
     document.body.classList.remove("light")
   } else {
