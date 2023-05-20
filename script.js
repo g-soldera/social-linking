@@ -76,10 +76,12 @@ document.addEventListener("keydown", function (event) {
 // Close popup clicking out
 document.addEventListener("click", function (event) {
   if (!popup.contains(event.target) && !avatar.contains(event.target)) {
+    // Hide pop-up
     popup.classList.remove("show")
   }
 })
 
+// Open Avatar full-size pop-up (ONLY JS AND CSS [REMOVE FROM HTML])
 // avatar.addEventListener("click", function () {
 //   // Create Pop-up
 //   const popup = document.createElement("div")
@@ -92,7 +94,7 @@ document.addEventListener("click", function (event) {
 
 //   // Create close button
 //   const closeButton = document.createElement("button")
-//   closeButton.textContent = "Fechar" // Close button text, can be ""
+//   closeButton.textContent = "Close" // Close button text, can be "" if u provide closeButton style with class closeButton
 //   closeButton.className = "closeButton"
 
 //   // closeButton onclick event
