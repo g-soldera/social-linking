@@ -49,6 +49,21 @@ function toggleMode() {
   } */
 }
 
+// Function to check the preferred color scheme and add/remove classes
+function checkColorScheme() {
+  const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const html = document.documentElement
+
+  if (isDarkMode) {
+    html.classList.remove("light")
+  } else {
+    html.classList.add("light")
+  }
+}
+
+// Call the function on page load
+window.addEventListener("load", checkColorScheme)
+
 // Open Avatar full-size pop-up (abreviated)
 const popup = document.getElementById("popup")
 const closeButton = document.getElementById("closeButton")
