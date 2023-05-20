@@ -82,39 +82,39 @@ document.addEventListener("click", function (event) {
 })
 
 // Open Avatar full-size pop-up (ONLY JS AND CSS [REMOVE FROM HTML])
-// avatar.addEventListener("click", function () {
-//   // Create Pop-up
-//   const popup = document.createElement("div")
-//   popup.className = "popup"
+/* avatar.addEventListener("click", function () {
+  // Create Pop-up
+  const popup = document.createElement("div")
+  popup.className = "popup"
 
-//   // Create fullImage Element
-//   const fullImage = document.createElement("img")
-//   fullImage.src = "assets/avatar.png"
-//   fullImage.alt = "Fullsize Avatar"
+  // Create fullImage Element
+  const fullImage = document.createElement("img")
+  fullImage.src = "assets/avatar.png"
+  fullImage.alt = "Fullsize Avatar"
 
-//   // Create close button
-//   const closeButton = document.createElement("button")
-//   closeButton.textContent = "Close" // Close button text, can be "" if u provide closeButton style with class closeButton
-//   closeButton.className = "closeButton"
+  // Create close button
+  const closeButton = document.createElement("button")
+  closeButton.textContent = "Close" // Close button text, can be "" if u provide closeButton style with class closeButton
+  closeButton.className = "closeButton"
 
-//   // closeButton onclick event
-//   closeButton.addEventListener("click", function () {
-//     // Close pop-up
-//     document.body.removeChild(popup)
-//   })
+  // closeButton onclick event
+  closeButton.addEventListener("click", function () {
+    // Close pop-up
+    document.body.removeChild(popup)
+  })
 
-//   // Add image and close button
-//   popup.appendChild(fullImage)
-//   popup.appendChild(closeButton)
+  // Add image and close button
+  popup.appendChild(fullImage)
+  popup.appendChild(closeButton)
 
-//   // Add pop-up to <body>
-//   document.body.appendChild(popup)
+  // Add pop-up to <body>
+  document.body.appendChild(popup)
 
-//   // Add escape key to close popup
-//   document.addEventListener("keydown", function (event) {
-//     if (event.key === "Escape") {
-//       // Remove popup on escape press
-//       document.body.removeChild(popup)
-//     }
-//   })
-// })
+  // Add escape key to close popup
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      // Remove popup on escape press
+      document.body.removeChild(popup)
+    }
+  })
+}) */
