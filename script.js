@@ -1,4 +1,5 @@
-let mode = "dark"
+// "mode" variable to lines 40-47
+// let mode = "dark"
 
 function toggleMode() {
   // Select <html>
