@@ -73,6 +73,13 @@ document.addEventListener("keydown", function (event) {
   }
 })
 
+// Close popup clicking out
+document.addEventListener("click", function (event) {
+  if (!popup.contains(event.target) && !avatar.contains(event.target)) {
+    popup.classList.remove("show")
+  }
+})
+
 // avatar.addEventListener("click", function () {
 //   // Create Pop-up
 //   const popup = document.createElement("div")
