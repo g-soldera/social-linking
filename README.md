@@ -56,7 +56,7 @@ This project is licensed under the [MIT License](https://tlo.mit.edu/learn-about
 
 ## New Features Log
 
-* Added popup when clicking on avatar.
+* Added popup when clicking on avatar. Popup closes when escape is pressed, on click in closeButton or on click out the popup.
 
 ## Contact
 
