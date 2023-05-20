@@ -37,7 +37,7 @@ body {
 
   background: color image repeat position/size */
 
-  background: #561a54 var(--bg-url) no-repeat top center/cover;
+  background: #fff var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 
   transition: all 0.5s ease;

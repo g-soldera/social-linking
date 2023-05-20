@@ -8,16 +8,16 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     avatar.setAttribute("src", "assets/avatar.png")
-    avatar.setAttribute(
-      "style",
-      "-webkit-filter: grayscale(100%); -webkit-filter: grayscale(1) filter: grayscale(100%);"
-    )
+    // avatar.setAttribute(
+    //   "style",
+    //   "-webkit-filter: grayscale(100%); -webkit-filter: grayscale(1) filter: grayscale(100%);"
+    // )
   } else {
     avatar.setAttribute("src", "assets/avatar.png")
-    avatar.setAttribute(
-      "style",
-      "-webkit-filter: grayscale(0%); -webkit-filter: grayscale(0) filter: grayscale(0%);"
-    )
+    // avatar.setAttribute(
+    //   "style",
+    //   "-webkit-filter: grayscale(0%); -webkit-filter: grayscale(0) filter: grayscale(0%);"
+    // )
   }
 
   // if (html.classList.contains("light")) {
