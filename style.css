@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-:root {
+:root { 
   --text-color: #f9f9f9;
   --bg-url: url(assets/bgmobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
