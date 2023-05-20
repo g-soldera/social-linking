@@ -16,7 +16,7 @@ function toggleMode() {
     // Change avatar image when light mode
     avatar.setAttribute("src", "assets/avatar.png")
 
-    // Toggle grayscale filter (web-safe) on when lightmode
+    // Turn grayscale filter (web-safe) on when lightmode
     // avatar.setAttribute(
     //   "style",
     //   "-webkit-filter: grayscale(100%); -webkit-filter: grayscale(1) filter: grayscale(100%);"
@@ -25,7 +25,7 @@ function toggleMode() {
     // Change avatar image when dark mode
     avatar.setAttribute("src", "assets/avatar.png")
 
-    // Toggle grayscale filter (web-safe) off
+    // Turn grayscale filter (web-safe) off
     // avatar.setAttribute(
     //   "style",
     //   "-webkit-filter: grayscale(0%); -webkit-filter: grayscale(0) filter: grayscale(0%);"
