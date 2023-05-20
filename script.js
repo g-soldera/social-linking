@@ -2,7 +2,7 @@
 // let mode = "dark"
 
 function toggleMode() {
-  // Select <html>
+  // Select <html> element
   const html = document.documentElement
 
   // Select img from div with "profile" id
@@ -39,7 +39,7 @@ function toggleMode() {
   //   html.classList.add("light")
   // }
 
-  // Add and remove light mode with cache variable "mode"
+  // Add and remove light mode with cache variable "mode" - Add class to <body> element
   // if (mode === "light") {
   //   mode = "dark"
   //   document.body.classList.remove("light")
