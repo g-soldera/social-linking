@@ -56,7 +56,8 @@ This project is licensed under the [MIT License](https://tlo.mit.edu/learn-about
 
 ## New Features Log
 
-* Added popup when clicking on avatar. Popup closes when escape is pressed, on click in closeButton or on click out the popup.
+- Added popup when clicking on avatar. Popup closes when escape is pressed, on click in closeButton or on click out the popup.
+- Added dark mode check. If the browser has not dark mod preference set, the default theme will be light.
 
 ## Contact
 
