@@ -2,12 +2,22 @@
 
 Social Linking is a versatile tool that allows you to create a customized page with links to your social media profiles and other resources. It features a footer section and a theme switcher, enabling you to easily switch between light and dark modes. Additionally, you can leverage pre-existing code to modify the image or convert it to grayscale when changing themes.
 
+## Technologies
+
+* HTML and CSS
+* Git and Github
+* JS
+* Figma
+
 ## Features
 
 - **Customizable Links** : Effortlessly add links to your social media profiles, portfolio, blog, or any other important content.
 - **Footer** : Include additional information such as a brief biography, contact details, or any message you wish to display in the footer section of the page.
 - **Theme Switcher** : Toggle between light and dark themes with just one click, enhancing the viewing experience for your visitors.
 - **Image Customization** : Utilize pre-existing code to modify the image or apply grayscale effects when transitioning between themes.
+
+## Preview
+
 
 ## Getting Started
 

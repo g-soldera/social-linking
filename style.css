@@ -42,7 +42,8 @@ body {
 }
 
 #container {
-  width: 360px;
+  width: 96%;
+  max-width: 588px;
   /* height: 712px;
   border: 1px solid var(--text-color); */
   margin: auto;
