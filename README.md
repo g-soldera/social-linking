@@ -1,4 +1,3 @@
-
 # Social Linking
 
 Social Linking is a versatile tool that allows you to create a customized page with links to your social media profiles and other resources. It features a footer section and a theme switcher, enabling you to easily switch between light and dark modes. Additionally, you can leverage pre-existing code to modify the image or convert it to grayscale when changing themes.
@@ -19,7 +18,7 @@ Social Linking is a versatile tool that allows you to create a customized page w
 
 ## 📷 Preview
 
-[![https://g-soldera.github.io/social-linking/](https://cdn.discordapp.com/attachments/1109870440945565726/1109900560473260092/sociallinkingHeader.png)](https://g-soldera.github.io/social-linking/)
+[![https://g-soldera.github.io/social-linking/](https://media.discordapp.net/attachments/1109870440945565726/1109903046143647754/sociallinkingHeader.png)](https://g-soldera.github.io/social-linking/)
 
 ## 📃 Getting Started
 
