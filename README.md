@@ -1,26 +1,27 @@
+
 # Social Linking
 
 Social Linking is a versatile tool that allows you to create a customized page with links to your social media profiles and other resources. It features a footer section and a theme switcher, enabling you to easily switch between light and dark modes. Additionally, you can leverage pre-existing code to modify the image or convert it to grayscale when changing themes.
 
-## Technologies
+## 🌐 Technologies
 
 - HTML and CSS
 - Git and Github
 - JS
 - Figma
 
-## Features
+## ✔️ Features
 
 - **Customizable Links** : Effortlessly add links to your social media profiles, portfolio, blog, or any other important content.
 - **Footer** : Include additional information such as a brief biography, contact details, or any message you wish to display in the footer section of the page.
 - **Theme Switcher** : Toggle between light and dark themes with just one click, enhancing the viewing experience for your visitors.
 - **Image Customization** : Utilize pre-existing code to modify the image or apply grayscale effects when transitioning between themes.
 
-## Preview
+## 📷 Preview
 
 [![https://g-soldera.github.io/social-linking/](.github/preview.png)](https://g-soldera.github.io/social-linking/)
 
-## Getting Started
+## 📃 Getting Started
 
 To use Social Linking, follow these steps:
 
@@ -32,7 +33,7 @@ To use Social Linking, follow these steps:
 6. Deploy the project to your preferred hosting platform.
 7. Share your Social Linking page with others and enjoy the streamlined navigation to your various online profiles.
 
-## Customization
+## 🎨 Customization
 
 Social Linking offers various customization options to tailor the page according to your preferences:
 
@@ -41,24 +42,24 @@ Social Linking offers various customization options to tailor the page according
 - **Theme Customization** : Adjust the colors, styles, and layout to create a personalized look and feel.
 - **Image Modification** : Use the provided code snippets to modify the image or apply grayscale effects when switching themes.
 
-## Contributing
+## ✍️ Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please feel free to open an issue or submit a pull request.
 
-## License
+## 🪪 License
 
 This project is licensed under the [MIT License](https://tlo.mit.edu/learn-about-intellectual-property/software-and-open-source-licensing/open-source-licensing), making it open and free for anyone to use and modify.
 
-## Acknowledgements
+## 🫴 Acknowledgements
 
 - Ionic Icons - https://ionic.io/ionicons
 - DevLinks - https://rocketseat.com.br
 
-## New Features Log
+## ⭐ New Features Log
 
 - Added popup when clicking on avatar. Popup closes when escape is pressed, on click in closeButton or on click out the popup.
 - Added dark mode check. If the browser has not dark mod preference set, the default theme will be light.
 
-## Contact
+## 📇 Contact
 
 If you have any questions or need assistance, please feel free to reach out to me at [email](mailto:gustavo.soldera@gmail.com).
