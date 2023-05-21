@@ -348,7 +348,8 @@ a {
 }
 
 /* Selection Color */
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: var(--select-text-color);
   background: var(--text-bg-color);
 }
