@@ -18,7 +18,7 @@ Social Linking is a versatile tool that allows you to create a customized page w
 
 ## 📷 Preview
 
-[![https://g-soldera.github.io/social-linking/](https://media.discordapp.net/attachments/1109870440945565726/1109903046143647754/sociallinkingHeader.png)](https://g-soldera.github.io/social-linking/)
+[![https://g-soldera.github.io/social-linking/](https://cdn.discordapp.com/attachments/1109870440945565726/1109903046143647754/sociallinkingHeader.png)](https://g-soldera.github.io/social-linking/)
 
 ## 📃 Getting Started
 
@@ -56,8 +56,23 @@ This project is licensed under the [MIT License](https://tlo.mit.edu/learn-about
 
 ## ⭐ New Features Log
 
-- Added popup when clicking on avatar. Popup closes when escape is pressed, on click in closeButton or on click out the popup.
-- Added dark mode check. If the browser has not dark mod preference set, the default theme will be light.
+### Added Popup when Clicking on Avatar
+
+- Clicking on an avatar now opens a scalable popup, displaying the avatar in an enlarged format. This feature provides an opportunity to replace the popup image and customize the information displayed within the popup.
+
+* Key features of the enhanced avatar interaction:
+
+```markdown
+1. Scalable Popup: Upon clicking the avatar, a popup window appears, showcasing the avatar (or other image) in a larger size (responsive), enabling users to have a closer look.
+2. Customizable Popup Image: You have the freedom to replace the popup image with any desired image by modifying the code.
+3. Personalized Information: The code allows you to include personalized information within the popup, tailoring it to your specific needs.
+```
+
+- The popup can be closed by pressing the escape key, clicking outside the popup area, or clicking on the close button. This provides users with multiple options to easily close the popup and resume their browsing experience.
+
+### Added Dark Mode Check
+
+- In order to provide a more personalized experience, we have introduced a dark mode check. The default theme will be set to light unless the browser has a dark mode preference.
 
 ## 📇 Contact
 
