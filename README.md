@@ -7,7 +7,6 @@ Social Linking is a versatile tool that allows you to create a customized page w
 - HTML and CSS
 - Git and Github
 - JS
-- Figma
 
 ## ✔️ Features
 
