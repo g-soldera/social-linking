@@ -18,7 +18,7 @@ Social Linking is a versatile tool that allows you to create a customized page w
 
 ## Preview
 
-![Preview](.github/preview.jpg "Preview")
+[![https://g-soldera.github.io/social-linking/](.github/preview.png)](https://g-soldera.github.io/social-linking/)
 
 ## Getting Started
 
@@ -61,4 +61,4 @@ This project is licensed under the [MIT License](https://tlo.mit.edu/learn-about
 
 ## Contact
 
-If you have any questions or need assistance, please feel free to reach out to me at [gustavo.soldera@gmail.com].
+If you have any questions or need assistance, please feel free to reach out to me at [email](mailto:gustavo.soldera@gmail.com).
