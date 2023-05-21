@@ -321,7 +321,7 @@ a {
 .popup .text {
   padding: 10px;
   max-width: 460px;
-  max-height: 300px;
+  max-height: 11em;
   margin-top: 3vh;
   text-align: center;
   overflow: auto;
