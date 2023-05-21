@@ -299,12 +299,28 @@ a {
   opacity: 1;
 }
 
+@media (max-width: 500px) {
+  .popup {
+    padding: 15px;
+    width: 70%;
+  }
+}
+
 .popup img {
   max-height: 100%;
   max-width: 100%;
   display: block;
   margin: 0 auto;
   object-fit: contain;
+}
+
+.popup .text {
+  padding: 10px;
+  max-width: 460px;
+  max-height: 300px;
+  margin-top: 3vh;
+  text-align: center;
+  overflow: auto;
 }
 
 .closeButton {
@@ -315,7 +331,7 @@ a {
   margin: 0 auto;
   color: var(--text-color);
   font-size: 2em;
-  margin-top: 4vh;
+  margin-top: 3vh;
 
   border-radius: 50%;
 
