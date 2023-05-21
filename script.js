@@ -67,17 +67,20 @@ window.addEventListener("load", checkColorScheme)
 // Open Avatar full-size pop-up (abreviated)
 const popup = document.getElementById("popup")
 const closeButton = document.getElementById("closeButton")
+const overlay = document.querySelector(".overlay")
 
 // Click event listener on avatar
 avatar.addEventListener("click", function () {
   // Show pop-up
   popup.classList.add("show")
+  overlay.classList.add("show")
 })
 
 // Click event listener on close button
 closeButton.addEventListener("click", function () {
   // Hide pop-up
   popup.classList.remove("show")
+  overlay.classList.remove("show")
 })
 
 // Key press event listener on escape key
@@ -85,6 +88,7 @@ document.addEventListener("keydown", function (event) {
   if (event.key === "Escape") {
     // Hide pop-up
     popup.classList.remove("show")
+    overlay.classList.remove("show")
   }
 })
 
@@ -93,6 +97,7 @@ document.addEventListener("click", function (event) {
   if (!popup.contains(event.target) && !avatar.contains(event.target)) {
     // Hide pop-up
     popup.classList.remove("show")
+    overlay.classList.remove("show")
   }
 })
 
