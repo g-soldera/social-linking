@@ -19,7 +19,7 @@ Social Linking is a versatile tool that allows you to create a customized page w
 
 ## 📷 Preview
 
-[![https://g-soldera.github.io/social-linking/](.github/preview.png)](https://g-soldera.github.io/social-linking/)
+[![https://g-soldera.github.io/social-linking/](https://cdn.discordapp.com/attachments/1109870440945565726/1109900560473260092/sociallinkingHeader.png)](https://g-soldera.github.io/social-linking/)
 
 ## 📃 Getting Started
 
