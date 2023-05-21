@@ -318,7 +318,7 @@ a {
   padding: 10px;
   max-width: 460px;
   max-height: 300px;
-  margin-top: 3vh;
+  margin-top: 20px;
   text-align: center;
   overflow: auto;
 }
@@ -331,7 +331,7 @@ a {
   margin: 0 auto;
   color: var(--text-color);
   font-size: 2em;
-  margin-top: 3vh;
+  margin-top: 20px;
 
   border-radius: 50%;
 
