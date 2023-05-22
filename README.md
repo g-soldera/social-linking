@@ -53,7 +53,7 @@ This project is licensed under the [MIT License](https://tlo.mit.edu/learn-about
 - Ionic Icons - https://ionic.io/ionicons
 - DevLinks - https://rocketseat.com.br
 
-## ⭐ New Features Log
+## ⭐ New Features
 
 ### Added Popup when Clicking on Avatar
 
