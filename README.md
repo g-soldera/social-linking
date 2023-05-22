@@ -50,7 +50,7 @@ This project is licensed under the [MIT License](https://tlo.mit.edu/learn-about
 
 ## 🫴 Acknowledgements
 
-- Ionic Icons - https://ionic.io/ionicons
+- IonIcons - https://ionic.io/ionicons
 - DevLinks - https://rocketseat.com.br
 
 ## ⭐ New Features
