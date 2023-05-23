@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
   margin: 0;
@@ -31,7 +31,7 @@
 }
 
 body {
-  font-family: "Abel", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: var(--text-color);
   background-color: #1f1e22;
   /* background-image: url(assets/bgmobile.jpg);
