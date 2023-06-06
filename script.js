@@ -1,6 +1,5 @@
 // "mode" variable to lines 42-49
 // let mode = "dark"
-
 // Select img from div with "profile" id
 const avatar = document.querySelector("#profile img")
 
